@@ -2,7 +2,7 @@
 
 > ⚡️ Get shipping rates for orders by Shippo
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/notrab/moltin-shippo-integration&env=SHIPPO_PRIVATE_KEY)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/notrab/moltin-shippo-integration&env=SHIPPO_PRIVATE_KEY&env=MOLTIN_WEBHOOK_SECRET)
 
 Asynchronous microservice that returns shipping rates from [Shippo](https://goshippo.com) for given `from` and `to` addresses. Built with [Micro](https://github.com/zeit/micro) 🤩
 
@@ -25,7 +25,7 @@ SHIPPO_PRIVATE_KEY=
 
 Once you have the function deployed, take a note of the immutable `now.sh` url.
 
-You can use this URL to make requests, providing you send along `MOLTIN_WEBHOOK_SECRET` in the request header.
+You can use this URL to make requests, providing you send along `X-MOLTIN-SECRET-KEY` in the request header.
 
 Send a request to `http://localhost:3000` that includes the following payload
 
