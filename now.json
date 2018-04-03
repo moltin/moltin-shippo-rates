@@ -3,7 +3,7 @@
   "dotenv": true,
   "env": {
     "NODE_ENV": "production",
-    "MOLTIN_WEBHOOK_SECRET": "@moltin-webhook-secret",
+    "MOLTIN_SECRET_KEY": "@moltin-secret-key",
     "SHIPPO_PRIVATE_KEY": "@shippo-private-key"
   }
 }

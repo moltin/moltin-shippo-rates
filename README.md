@@ -13,7 +13,7 @@ Both a moltin _and_ Shippo account are needed for this to function.
 Create a `.env` at the project root with the following credentials.
 
 ```dosini
-MOLTIN_WEBHOOK_SECRET=
+MOLTIN_SECRET_KEY=
 SHIPPO_PRIVATE_KEY=
 ```
 

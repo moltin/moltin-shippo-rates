@@ -3,7 +3,7 @@ const { router, post } = require('microrouter')
 const cors = require('micro-cors')()
 const shippo = require('shippo')(process.env.SHIPPO_PRIVATE_KEY)
 
-const moltinSecret = process.env.MOLTIN_WEBHOOK_SECRET
+const moltinSecret = process.env.MOLTIN_SECRET_KEY
 
 module.exports = cors(
   router(
