@@ -1,0 +1,9 @@
+{
+  "alias": "moltin-shippo-integration.now.sh",
+  "dotenv": true,
+  "env": {
+    "NODE_ENV": "production",
+    "MOLTIN_WEBHOOK_SECRET": "@moltin-webhook-secret",
+    "SHIPPO_PRIVATE_KEY": "@shippo-private-key"
+  }
+}
