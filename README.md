@@ -1,10 +1,10 @@
 # moltin-shippo-rates
 
-> ⚡️ Get shipping rates for orders by Shippo
+> 📦 Get shipping rates for orders by Shippo
 
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/notrab/moltin-shippo-integration&env=SHIPPO_PRIVATE_KEY&env=MOLTIN_WEBHOOK_SECRET)
 
-Asynchronous microservice that returns shipping rates from [Shippo](https://goshippo.com) for given `from` and `to` addresses. Built with [Micro](https://github.com/zeit/micro) 🤩
+Asynchronous microservice that returns shipping rates from [Shippo](https://goshippo.com) for given `from` and `to` addresses and `parcel` info. Built with [Micro](https://github.com/zeit/micro) 🤩
 
 ## 🛠 Setup
 
