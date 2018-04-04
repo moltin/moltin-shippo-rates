@@ -25,7 +25,7 @@ SHIPPO_PRIVATE_KEY=
 
 Once you have the function deployed, take a note of the immutable `now.sh` url.
 
-You can use this URL to make requests, providing you send along `X-MOLTIN-SECRET-KEY` in the request header.
+You can use this URL to make requests, providing you send along `X-MOLTIN-SECRET-KEY` in the request header that is the same you defined in `.env`. You may wish to invoke this function server side so you don't expose your `MOLTIN_SECRET_KEY` but you could remove this feature entirely.
 
 Send a request to `http://localhost:3000` that includes the following payload
 
